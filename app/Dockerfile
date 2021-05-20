@@ -1,4 +1,4 @@
-FROM node:6.3.1
+FROM node:14.16.1
 
 RUN npm install supervisor -g
 
@@ -10,6 +10,6 @@ ADD . /tiny
 
 RUN cd /tiny && npm install
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD ["supervisor", "/tiny/server.js"]

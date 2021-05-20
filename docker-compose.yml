@@ -1,3 +1,4 @@
+
 nginx:
   build: ./nginx
   ports:
@@ -12,7 +13,7 @@ app1:
   volumes:
     - "./app:/tiny"
   ports:
-    - "3000"
+    - "8000"
   links:
     - "cache:redis"
 
@@ -21,7 +22,7 @@ app2:
   volumes:
       - "./app:/tiny"
   ports:
-    - "3000"
+    - "8000"
   links:
     - "cache:redis"
 
@@ -30,7 +31,7 @@ app3:
   volumes:
       - "./app:/tiny"
   ports:
-    - "3000"
+    - "8000"
   links:
     - "cache:redis"
 

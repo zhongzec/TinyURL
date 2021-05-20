@@ -1,0 +1,171 @@
+body {
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar-brand, .nav-item {
+    cursor: pointer;
+	user-select: none;
+}
+
+.dropdown-item:hover {
+	background-color: #F0F0F0;
+} 
+
+.dropdown-item:active {
+	background-color: #f7f7f7;
+} 
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+	margin-top: -24px;   
+}
+.dropdown-menu{
+	width: 34em;
+	left: 25%;
+}
+.dropdown {
+	position: static;
+}
+
+.navbar-collapse ul li .underline {
+	height: 2px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.12s  ease-in, background-color 0.5s;
+	margin: -1px auto 0px auto ;
+	border-radius: 10px;
+}
+
+.navbar-collapse ul li:hover .underline {
+	background-color: #0163b9;
+	width: 58%;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #040F0F !important;
+	opacity: 0.8;
+	font-family: 'Montserrat' !important;
+	font-size: 0.88rem;
+	font-weight: 400;
+}
+
+.nav-link:hover, .nav-link:active {
+	color: #0163b9 !important;
+}
+
+.dropdown:hover > .nav-link{
+	color: #0163b9 !important;
+}
+
+.wrap-drop-down:hover > div {
+	color: #005299 !important;
+}
+
+.wrap-drop-down:hover > div > span.text-dark {
+	color: #005299 !important;
+}
+
+.btn:focus,.btn:active {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.nav-btn {
+	background-color: #3069c5;
+	border: none !important;
+	border-radius: 7px;
+	padding: 8px 14px 8px 14px;
+}
+
+.nav-btn:hover {
+	background-color: #035aa7;
+}
+
+.drop-content > .text-dark {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.info-text {
+	margin-top: -3px;
+	font-size: 0.9rem;
+}
+
+.signup {
+	color: #004f94 !important;
+}
+
+/* shorten-url */
+
+.shorten-url {
+	background-color: #0B1736;
+	margin-bottom: 110px !important;
+}
+
+.form-control {
+	min-height: 95% !important;
+	font-weight: 400;
+	font-size: 1.1rem;
+	font-family: 'Montserrat';
+	border-radius: 8px;
+}
+
+.url-btn, .url-btn:active {
+	background-color: #0e379e;
+	border-radius: 8px;
+	border: none;
+	font-family: 'Montserrat';
+}
+
+.url-btn:hover {
+	background-color: #092d88;
+	border: none;
+	font-family: 'Montserrat';
+}
+
+.sub-shorten-text > span{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.sub-shorten-text{
+	opacity: 0.6;
+	font-family: 'Montserrat';
+	font-size: 0.85rem;
+	font-weight: 200;
+}
+
+.copy {
+	background-color: #ecf3f6;
+	border: none;
+	border-radius: 8px;
+	padding: 7px 20px 7px 20px;
+	font-family: "montserrat";
+	font-size: 0.95;
+}
+
+.short-links{
+	border-radius: 10px;
+}
+
+.list-group-item {
+	opacity: 0.9;
+}
+
+/* Log in Sign up */
+
+.card {
+	border: none;
+}
