@@ -1,20 +1,5 @@
 ### Surl | Full Stack & Highly Scalable URL Shortening Service
 
-```
-git clone https://github.com/gpldirk/EE599-Cloud-Computing.git
-```
-
-```
-cd EE599-Cloud-Computing/
-```
-```
-cd app/
-```
-```
-npm install
-```
-
-
 #### Running 3 instances with docker and docker-compose
 under EE599-Cloud-Computing/
 ```
